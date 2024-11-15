@@ -62,9 +62,9 @@ const Navbar = () => {
                         {isDropdownOpen && (
                             <DropdownMenu>
                                 <DropdownItem to={'/main/score'}><Icon><img src={iconUrl} alt="Icon" width="10px"/>기본소양</Icon></DropdownItem>
+                                <DropdownItem to={'/main/score/commonliberal'}><Icon><img src={iconUrl} alt="Icon" width="10px"/>공통교양</Icon></DropdownItem>
                                 <DropdownItem to={'/main/score/msc'}><Icon><img src={iconUrl} alt="Icon" width="10px"/>MSC</Icon></DropdownItem>
                                 <DropdownItem to={'/main/score/major'}><Icon><img src={iconUrl} alt="Icon" width="10px"/>전공</Icon></DropdownItem>
-                                <DropdownItem to={'/main/score/commonliberal'}><Icon><img src={iconUrl} alt="Icon" width="10px"/>공통교양</Icon></DropdownItem>
                             </DropdownMenu>
                         )}
                     </DropdownContainer>

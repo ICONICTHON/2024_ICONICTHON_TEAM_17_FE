@@ -14,24 +14,26 @@ const Score = () => {
                     <Table>
                         <tbody>
                             <tr>
-                                <TableHeader1>영역</TableHeader1>
-                                <TableHeader1>대학생활탐구</TableHeader1>
-                                <TableHeader1>자아성찰</TableHeader1>
-                                <TableHeader1>글쓰기</TableHeader1>
-                                <TableHeader1>리더십</TableHeader1>
-                                <TableHeader1>영어</TableHeader1>
-                                <TableHeader1>세미나</TableHeader1>
-                                <TableHeader1>합계</TableHeader1>
+                                <TableHeader1>조건 충족 여부</TableHeader1>
+                                <TableHeader1>미적분학 1, 2</TableHeader1>
+                                <TableHeader1>공업수학/산업수학</TableHeader1>
+                                <TableHeader1>실험 과목 1, 2</TableHeader1>
+                                <TableHeader1>개론 과목</TableHeader1>
+                                <TableHeader1>프로그래밍기초실습</TableHeader1>
+                                <TableHeader1>기타 전산학 1개</TableHeader1>
+                                <TableHeader1>취득 학점</TableHeader1>
+                                <TableHeader1>취득 요구 학점</TableHeader1>
                             </tr>
                             <tr>
-                                <TableData1>학점</TableData1>
-                                <TableData1>1</TableData1>
-                                <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>2</TableData1>
-                                <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>17</TableData1>
+                                <TableData1>미충족</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>29</TableData1>
+                                <TableData1>30</TableData1>
                             </tr>
                         </tbody>
                     </Table>
@@ -47,37 +49,27 @@ const Score = () => {
                             <tr>
                                 <TableHeader>교과목명</TableHeader>
                                 <TableHeader>학점</TableHeader>
-                                <TableHeader>비고</TableHeader>
+                                <TableHeader>교수명</TableHeader>
                             </tr>
                             <tr>
                                 <TableData>미적분학및연습1</TableData>
                                 <TableData>3</TableData>
-                                <TableData></TableData>
+                                <TableData>박정준</TableData>
                             </tr>
                             <tr>
                                 <TableData>미적분학및연습2</TableData>
                                 <TableData>3</TableData>
-                                <TableData>미적분1 선이수</TableData>
+                                <TableData>안재욱</TableData>
+                            </tr>
+                            <tr>
+                                <TableData>산업수학</TableData>
+                                <TableData>3</TableData>
+                                <TableData>이유철</TableData>
                             </tr>
                             <tr>
                                 <TableData>확률및통계학</TableData>
                                 <TableData>3</TableData>
-                                <TableData></TableData>
-                            </tr>
-                            <tr>
-                                <TableData>공학선형대수학</TableData>
-                                <TableData>3</TableData>
-                                <TableData></TableData>
-                            </tr>
-                            <tr>
-                                <TableData>공학수학1</TableData>
-                                <TableData>3</TableData>
-                                <TableData></TableData>
-                            </tr>
-                            <tr>
-                                <TableData>이산수학</TableData>
-                                <TableData>3</TableData>
-                                <TableData></TableData>
+                                <TableData>곽화륜</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -93,27 +85,22 @@ const Score = () => {
                             <tr>
                                 <TableHeader>교과목명</TableHeader>
                                 <TableHeader>학점</TableHeader>
-                                <TableHeader>비고</TableHeader>
+                                <TableHeader>교수명</TableHeader>
+                            </tr>
+                            <tr>
+                                <TableData>생물학개론</TableData>
+                                <TableData>3</TableData>
+                                <TableData>이보영</TableData>
                             </tr>
                             <tr>
                                 <TableData>일반물리학및실험1</TableData>
                                 <TableData>4</TableData>
-                                <TableData>실험 교과목 1개 필수 선택 이수</TableData>
+                                <TableData>오형택</TableData>
                             </tr>
                             <tr>
                                 <TableData>일반물리학및실험2</TableData>
                                 <TableData>4</TableData>
-                                <TableData>1학년 수강신청 불가</TableData>
-                            </tr>
-                            <tr>
-                                <TableData>일반화학및실험1</TableData>
-                                <TableData>4</TableData>
-                                <TableData></TableData>
-                            </tr>
-                            <tr>
-                                <TableData>일반화학및실험2</TableData>
-                                <TableData>4</TableData>
-                                <TableData></TableData>
+                                <TableData>류영선</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -129,27 +116,17 @@ const Score = () => {
                             <tr>
                                 <TableHeader>교과목명</TableHeader>
                                 <TableHeader>학점</TableHeader>
-                                <TableHeader>비고</TableHeader>
+                                <TableHeader>교수명</TableHeader>
                             </tr>
                             <tr>
-                                <TableData>일반물리학및실험1</TableData>
-                                <TableData>4</TableData>
-                                <TableData>실험 교과목 1개 필수 선택 이수</TableData>
+                                <TableData>프로그래밍기초와실습</TableData>
+                                <TableData>3</TableData>
+                                <TableData>송양의</TableData>
                             </tr>
                             <tr>
-                                <TableData>일반물리학및실험2</TableData>
-                                <TableData>4</TableData>
-                                <TableData>1학년 수강신청 불가</TableData>
-                            </tr>
-                            <tr>
-                                <TableData>일반화학및실험1</TableData>
-                                <TableData>4</TableData>
-                                <TableData></TableData>
-                            </tr>
-                            <tr>
-                                <TableData>일반화학및실험2</TableData>
-                                <TableData>4</TableData>
-                                <TableData></TableData>
+                                <TableData>인터넷프로그래밍</TableData>
+                                <TableData>3</TableData>
+                                <TableData>엄진영</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -197,7 +174,7 @@ const Table = styled.table`
 const TableHeader = styled.th`
     width: 33.33%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
@@ -210,16 +187,16 @@ const TableData = styled.td`
     color: #555;
 `;
 const TableHeader1 = styled.th`
-    width: 12.5%;
+    width: 11.11%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
 `;
 
 const TableData1 = styled.td`
-    width: 12.5%;
+    width: 11.11%;
     padding: 1rem;
     border: 1px solid #ccc;
     color: #555;

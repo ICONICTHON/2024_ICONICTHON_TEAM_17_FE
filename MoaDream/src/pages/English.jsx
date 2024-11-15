@@ -14,24 +14,14 @@ const English = () => {
                     <Table>
                         <tbody>
                             <tr>
-                                <TableHeader1>영역</TableHeader1>
-                                <TableHeader1>대학생활탐구</TableHeader1>
-                                <TableHeader1>자아성찰</TableHeader1>
-                                <TableHeader1>글쓰기</TableHeader1>
-                                <TableHeader1>리더십</TableHeader1>
-                                <TableHeader1>영어</TableHeader1>
-                                <TableHeader1>세미나</TableHeader1>
-                                <TableHeader1>합계</TableHeader1>
+                                <TableHeader1>조건 충족 여부</TableHeader1>
+                                <TableHeader1>수강 강좌 수</TableHeader1>
+                                <TableHeader1>수강 요구 강좌 수</TableHeader1>
                             </tr>
                             <tr>
-                                <TableData1>학점</TableData1>
-                                <TableData1>1</TableData1>
+                                <TableData1>충족</TableData1>
                                 <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>2</TableData1>
                                 <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>17</TableData1>
                             </tr>
                         </tbody>
                     </Table>
@@ -49,16 +39,20 @@ const English = () => {
                                 <TableHeader>이수구분</TableHeader>
                             </tr>
                             <tr>
+                                <TableData>객체지향언어와실습</TableData>
+                                <TableData>전공</TableData>
+                            </tr>
+                            <tr>
+                                <TableData>컴퓨터알고리즘및실습</TableData>
+                                <TableData>전공</TableData>
+                            </tr>
+                            <tr>
                                 <TableData>EAS1</TableData>
                                 <TableData>공통교양</TableData>
                             </tr>
                             <tr>
                                 <TableData>EAS2</TableData>
                                 <TableData>공통교양</TableData>
-                            </tr>
-                            <tr>
-                                <TableData>프로그래밍언어개념</TableData>
-                                <TableData>전공</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -78,8 +72,8 @@ const English = () => {
                                 </tr>
                                 <tr>
                                     <TableData>TOEIC</TableData>
-                                    <TableData>700</TableData>
-                                    <TableData>2024-11-14</TableData>
+                                    <TableData>885</TableData>
+                                    <TableData>2023-11-14</TableData>
                                 </tr>
                             </tbody>
                         </Table>
@@ -127,7 +121,7 @@ const Table = styled.table`
 const TableHeader = styled.th`
     width: 33.33%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
@@ -142,7 +136,7 @@ const TableData = styled.td`
 const TableHeader1 = styled.th`
     width: 12.5%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;

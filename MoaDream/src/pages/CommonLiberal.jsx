@@ -14,24 +14,14 @@ const CommonLiberal = () => {
                     <Table>
                         <tbody>
                             <tr>
-                                <TableHeader1>영역</TableHeader1>
-                                <TableHeader1>대학생활탐구</TableHeader1>
-                                <TableHeader1>자아성찰</TableHeader1>
-                                <TableHeader1>글쓰기</TableHeader1>
-                                <TableHeader1>리더십</TableHeader1>
-                                <TableHeader1>영어</TableHeader1>
-                                <TableHeader1>세미나</TableHeader1>
-                                <TableHeader1>합계</TableHeader1>
+                                <TableHeader1>조건 충족 여부</TableHeader1>
+                                <TableHeader1>수강 학점</TableHeader1>
+                                <TableHeader1>수강 요구 학점</TableHeader1>
                             </tr>
                             <tr>
-                                <TableData1>학점</TableData1>
-                                <TableData1>1</TableData1>
-                                <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>2</TableData1>
-                                <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>17</TableData1>
+                                <TableData1>충족</TableData1>
+                                <TableData1>15</TableData1>
+                                <TableData1>14 ~ 16</TableData1>
                             </tr>
                         </tbody>
                     </Table>
@@ -48,31 +38,55 @@ const CommonLiberal = () => {
                                 <TableHeader>영역</TableHeader>
                                 <TableHeader>교과목명</TableHeader>
                                 <TableHeader>학점</TableHeader>
-                                <TableHeader>비고</TableHeader>
+                                <TableHeader>교수명</TableHeader>
                             </tr>
                             <tr>
-                                <TableData>대학생활탐구</TableData>
+                                <TableData>글쓰기</TableData>
+                                <TableData>기술보고서작성및발표</TableData>
+                                <TableData>3</TableData>
+                                <TableData>조미라</TableData>
+                            </tr>
+                            <tr>
+                                <TableData>대학탐구</TableData>
                                 <TableData>커리어디자인</TableData>
                                 <TableData>1</TableData>
-                                <TableData></TableData>
+                                <TableData>우혜인</TableData>
                             </tr>
                             <tr>
                                 <TableData>자아성찰</TableData>
                                 <TableData>자아와명상1</TableData>
                                 <TableData>1</TableData>
-                                <TableData></TableData>
+                                <TableData>안병희</TableData>
                             </tr>
                             <tr>
-                                <TableData>자아성찰</TableData>
-                                <TableData>자아와명상2</TableData>
-                                <TableData>1</TableData>
-                                <TableData></TableData>
+                                <TableData>영어</TableData>
+                                <TableData>EAS1</TableData>
+                                <TableData>2</TableData>
+                                <TableData>김명숙</TableData>
                             </tr>
                             <tr>
                                 <TableData>자아성찰</TableData>
                                 <TableData>불교와인간</TableData>
                                 <TableData>2</TableData>
-                                <TableData></TableData>
+                                <TableData>임윤경</TableData>
+                            </tr>
+                            <tr>
+                                <TableData>영어</TableData>
+                                <TableData>EAS2</TableData>
+                                <TableData>2</TableData>
+                                <TableData>사무엘맥도널드</TableData>
+                            </tr>
+                            <tr>
+                                <TableData>리더십</TableData>
+                                <TableData>테크노앙트프레너십과리더십</TableData>
+                                <TableData>2</TableData>
+                                <TableData>성창수</TableData>
+                            </tr>
+                            <tr>
+                                <TableData>리더십</TableData>
+                                <TableData>테크노앙트프레너십과리더십</TableData>
+                                <TableData>2</TableData>
+                                <TableData>성창수</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -119,7 +133,7 @@ const Table = styled.table`
 const TableHeader1 = styled.th`
     width: 12.5%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
@@ -134,7 +148,7 @@ const TableData1 = styled.td`
 const TableHeader = styled.th`
     width: 25%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;

@@ -46,52 +46,50 @@ const Main = () => {
                 <img src={iconUrl} alt="Icon" />
                 <h1>졸업 요건</h1>
             </Icon>
-            <hr/>
+            <hr />
             <Section>
                 <Table>
                     <tbody>
                         <tr>
-                            <TableHeader>취득학점</TableHeader>
-                            <TableData>80/130</TableData>
-                            <TableHeader>평점평균</TableHeader>
-                            <TableData>3.8/2.0</TableData>
-                            <TableHeader>외국어시험</TableHeader>
-                            <TableData>80/130</TableData>
+                            <TableHeader>취득 학점</TableHeader>
+                            <TableData color="#e8d8d8"><strong>93</strong> / 130</TableData>
+                            <TableHeader>평점 평균</TableHeader>
+                            <TableData><strong>4.2</strong> / 2.0</TableData>
                         </tr>
                         <tr>
-                            <TableHeader>영어강의</TableHeader>
-                            <TableData>2/4</TableData>
+                            <TableHeader>외국어시험</TableHeader>
+                            <TableData><strong>885</strong> / 700</TableData>
+                            <TableHeader>영어 강의</TableHeader>
+                            <TableData><strong>4</strong> / 4</TableData>
+                        </tr>
+                        <tr>
                             <TableHeader>전공선택</TableHeader>
-                            <TableData>21/84</TableData>
+                            <TableData color="#e8d8d8"><strong>4</strong> / 5</TableData>
                             <TableHeader>전공필수</TableHeader>
-                            <TableData>17/17</TableData>
+                            <TableData color="#e8d8d8"><strong>5</strong> / 7</TableData>
                         </tr>
                         <tr>
                             <TableHeader>MSC</TableHeader>
-                            <TableData>--/--</TableData>
+                            <TableData color="#e8d8d8"><strong>29</strong> / 30</TableData>
                             <TableHeader>기본소양</TableHeader>
-                            <TableData>9/9</TableData>
-                            <TableHeader>공통교양</TableHeader>
-                            <TableData>--/--</TableData>
+                            <TableData><strong>6</strong> / 6</TableData>
                         </tr>
                         <tr>
-                            <TableHeader>일반교양</TableHeader>
-                            <TableData>--/--</TableData>
-                            <TableHeader></TableHeader>
-                            <TableData></TableData>
-                            <TableHeader></TableHeader>
-                            <TableData></TableData>
+                            <TableHeader>공통교양</TableHeader>
+                            <TableData><strong>15</strong> / 14</TableData>
+                            <TableHeader>졸업논문</TableHeader>
+                            <TableData color="#e8d8d8"><strong>미수강</strong> / 캡스톤 디자인</TableData>
                         </tr>
                     </tbody>
                 </Table>
             </Section>
-
-            {/* Add more sections with table data as needed */}
         </Container>
     );
 };
 
 export default Main;
+
+// 스타일드 컴포넌트
 
 const Container = styled.div`
     box-sizing: border-box;
@@ -100,11 +98,13 @@ const Container = styled.div`
     padding: 1rem 2rem;
     overflow-y: auto;
 `;
+
 const Icon = styled.div`
     display: flex;
     gap: 1rem;
     padding: 1rem 0;
 `;
+
 const Section = styled.div`
     margin-bottom: 3rem;
     background: #f9f9f9;
@@ -119,16 +119,19 @@ const Table = styled.table`
 `;
 
 const TableHeader = styled.th`
+    font-size: 1.2rem;
     text-align: left;
     padding: 1rem;
-    background-color: #eee;
+    background-color: ${props => props.color || '#E3DED1'};
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
 `;
 
 const TableData = styled.td`
+    font-size: 1.1rem;
     padding: 1rem;
+    background-color: ${props => props.color || 'transparent'};
     border: 1px solid #ccc;
     color: #555;
 `;

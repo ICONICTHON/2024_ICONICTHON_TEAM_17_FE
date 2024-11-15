@@ -36,14 +36,14 @@ const Login = () => {
             return;
         }
 
-        if (id !== 'User' || password !== 'User') {
+        if (id !== '2022112055' || password !== '1234') {
             setModalContent({
                 title: "알림",
                 content: "로그인",
                 message: "아이디 또는 비밀번호가 올바르지 않습니다."
             });
-            setIsIdError(id !== 'User');
-            setIsPasswordError(password !== 'User');
+            setIsIdError(id !== '2022112055');
+            setIsPasswordError(password !== '1234');
             return;
         }
 

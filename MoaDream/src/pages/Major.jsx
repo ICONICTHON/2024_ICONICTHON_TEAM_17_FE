@@ -14,24 +14,18 @@ const Major = () => {
                     <Table>
                         <tbody>
                             <tr>
-                                <TableHeader1>영역</TableHeader1>
-                                <TableHeader1>대학생활탐구</TableHeader1>
-                                <TableHeader1>자아성찰</TableHeader1>
-                                <TableHeader1>글쓰기</TableHeader1>
-                                <TableHeader1>리더십</TableHeader1>
-                                <TableHeader1>영어</TableHeader1>
-                                <TableHeader1>세미나</TableHeader1>
-                                <TableHeader1>합계</TableHeader1>
+                                <TableHeader1>조건 충족 여부</TableHeader1>
+                                <TableHeader1>전공 필수</TableHeader1>
+                                <TableHeader1>전공 설계 선택 필수</TableHeader1>
+                                <TableHeader1>취득 학점</TableHeader1>
+                                <TableHeader1>취득 요구 학점</TableHeader1>
                             </tr>
                             <tr>
-                                <TableData1>학점</TableData1>
-                                <TableData1>1</TableData1>
-                                <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>2</TableData1>
-                                <TableData1>4</TableData1>
-                                <TableData1>3</TableData1>
-                                <TableData1>17</TableData1>
+                                <TableData1>미충족</TableData1>
+                                <TableData1>미수강</TableData1>
+                                <TableData1>수강</TableData1>
+                                <TableData1>45</TableData1>
+                                <TableData1>60</TableData1>
                             </tr>
                         </tbody>
                     </Table>
@@ -47,37 +41,32 @@ const Major = () => {
                             <tr>
                                 <TableHeader>교과목명</TableHeader>
                                 <TableHeader>학점</TableHeader>
-                                <TableHeader>이수학년</TableHeader>
+                                <TableHeader>교수명</TableHeader>
                             </tr>
                             <tr>
-                                <TableData>미적분학및연습1</TableData>
+                                <TableData>어드벤처디자인</TableData>
                                 <TableData>3</TableData>
-                                <TableData></TableData>
+                                <TableData>김은정</TableData>
                             </tr>
                             <tr>
-                                <TableData>미적분학및연습2</TableData>
+                                <TableData>자료구조와실습</TableData>
                                 <TableData>3</TableData>
-                                <TableData>미적분1 선이수</TableData>
+                                <TableData>임민중</TableData>
                             </tr>
                             <tr>
-                                <TableData>확률및통계학</TableData>
+                                <TableData>컴퓨터구성</TableData>
                                 <TableData>3</TableData>
-                                <TableData></TableData>
+                                <TableData>김양우</TableData>
                             </tr>
                             <tr>
-                                <TableData>공학선형대수학</TableData>
+                                <TableData>신호와시스템</TableData>
                                 <TableData>3</TableData>
-                                <TableData></TableData>
+                                <TableData>류철</TableData>
                             </tr>
                             <tr>
-                                <TableData>공학수학1</TableData>
+                                <TableData>통신이론및실험</TableData>
                                 <TableData>3</TableData>
-                                <TableData></TableData>
-                            </tr>
-                            <tr>
-                                <TableData>이산수학</TableData>
-                                <TableData>3</TableData>
-                                <TableData></TableData>
+                                <TableData>임대운</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -96,24 +85,24 @@ const Major = () => {
                                 <TableHeader>이수학년</TableHeader>
                             </tr>
                             <tr>
-                                <TableData>일반물리학및실험1</TableData>
-                                <TableData>4</TableData>
-                                <TableData>실험 교과목 1개 필수 선택 이수</TableData>
+                                <TableData>객체지향언어와실습</TableData>
+                                <TableData>3</TableData>
+                                <TableData>이유철</TableData>
                             </tr>
                             <tr>
-                                <TableData>일반물리학및실험2</TableData>
-                                <TableData>4</TableData>
-                                <TableData>1학년 수강신청 불가</TableData>
+                                <TableData>컴퓨터알고리즘및실습</TableData>
+                                <TableData>3</TableData>
+                                <TableData>김웅섭</TableData>
                             </tr>
                             <tr>
-                                <TableData>일반화학및실험1</TableData>
-                                <TableData>4</TableData>
-                                <TableData></TableData>
+                                <TableData>운영체제</TableData>
+                                <TableData>3</TableData>
+                                <TableData>김양우</TableData>
                             </tr>
                             <tr>
-                                <TableData>일반화학및실험2</TableData>
-                                <TableData>4</TableData>
-                                <TableData></TableData>
+                                <TableData>임베디드소프트웨어와스마트모빌리티</TableData>
+                                <TableData>3</TableData>
+                                <TableData>이유철</TableData>
                             </tr>
                         </tbody>
                     </Table>
@@ -161,7 +150,7 @@ const Table = styled.table`
 const TableHeader = styled.th`
     width: 33.33%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
@@ -177,7 +166,7 @@ const TableData = styled.td`
 const TableHeader1 = styled.th`
     width: 12.5%;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #E3DED1;
     color: #333;
     font-weight: bold;
     border: 1px solid #ccc;
