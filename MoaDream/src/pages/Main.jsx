@@ -9,6 +9,7 @@ const Main = () => {
                 <h1>학생 정보</h1>
             </Icon>
             <hr />
+            
             <Section>
                 <Table>
                     <tbody>
