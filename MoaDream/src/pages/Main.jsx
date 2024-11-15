@@ -88,9 +88,6 @@ const Main = () => {
 };
 
 export default Main;
-
-// 스타일드 컴포넌트
-
 const Container = styled.div`
     box-sizing: border-box;
     height: 100vh;
